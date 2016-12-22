@@ -1,3 +1,100 @@
 body{
-  color: red;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+.mainContainer{
+  background-image: url(../images/great-fun-family-time-happy-couple-happy-kids-autumn-production-lifestyle-photography-feeling-good-beurer.jpg);
+  height: 680px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1024px;
+}
+.mainContainer__img-logo{
+  margin: 9px 3px;
+}
+.mainContainer__rightnav{
+  float: right;
+}
+.mainContainer__list{
+  display: inline-flex;
+  margin: 0;
+  li {
+
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: bold;
+      margin: 0 20px;
+    }
+  }
+}
+.mainContainer__likes{
+  display: inline-flex;
+  color: white;
+  .mainContainer__heart-img {
+    margin: 26px 0;
+  }
+  span {
+    margin: 24px 22px 0 10px;
+  }
+}
+.mainContainer__mainText{
+  margin-top: 77px;
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  font-family: Roboto;
+  p{
+    margin: 0;
+  }
+}
+.mainContainer__inputs{
+  text-align: center;
+  margin-top: 34px;
+}
+.mainContainer__typeFieldFirst{
+  margin: 0;
+  padding: 0;
+  width: 348px;
+  height: 48px;
+}
+.mainContainer__typeFieldSecond{
+  margin-left: -5px;
+  padding: 0;
+  height: 48px;
+  width: 261px;
+}
+.mainContainer__butt{
+  margin-left: -5px;
+  padding: 0;
+  height: 48px;
+  width: 107px;
+  background-color: #00BEAE;
+  color: white;
+  border-color: #00BEAE; ;
+}
+.mainContainer__playButton{
+  display: block;
+  margin: 43px  auto;
+  margin-bottom: 21px;
+}
+.mainContainer__smallParagraph{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.mainContainer__listPoint{
+  padding: 33px;
+  list-style: none;
+  display: inline-flex;
+  color: white;
+  img{
+    margin: 0 4px;
+  }
+
 }
