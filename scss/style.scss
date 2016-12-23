@@ -2,10 +2,11 @@ body{
   margin: 0;
   padding: 0;
   font-family: Roboto;
+  width: 1024px;
 }
 .mainContainer{
   background-image: url(../images/great-fun-family-time-happy-couple-happy-kids-autumn-production-lifestyle-photography-feeling-good-beurer.jpg);
-  height: 680px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 1024px;
@@ -97,4 +98,185 @@ body{
     margin: 0 4px;
   }
 
+}
+.mainBlocks{
+  height: 610px;
+  text-align: center;
+  p{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 33px;
+  }
+  .secondrow{
+    margin-top: 16px;
+  }
+}
+.mainBlocks__row{
+text-align: center;
+  div{
+    background-image: url(../images/israel.jpg);
+    background-size: cover;
+    height: 231px;
+    width: 231px;
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 9.5;
+
+  }
+}
+.findTreatmentContainer{
+  background-color: #F4C900;
+  height:392px;
+  height:392px;
+
+  p{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 38px;
+  }
+  .findTreatmentContainer__images{
+    text-align: center;
+    margin-top: 41px;
+    div{
+      display: inline-block;
+      vertical-align: top;
+      span.littletext{
+        width: 147px;
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+        color: black;
+        margin-top: 16px;
+        padding-left: 8px;
+
+      }
+    }
+    div>div {
+      margin:0 8px;
+      display: inline-block;
+      background-color: white;
+      height: 147px;
+      width: 147px;
+    }
+  }
+}
+.specialistContainer{
+  background-color:#00BEAE;
+  height:567px;
+  text-align: center;
+  padding-top: 33px;;
+  p{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    white-space: pre;
+    margin:0;
+  }
+  .specialistContainer__firstparagraph{
+    padding-left: 7px;
+  }
+  .specialistContainer__secondparagraph{
+    padding: 5px;
+  }
+  .specialistContainer__third{
+    font-size: 18px;
+    margin-top: 35px;
+  }
+  .specialistContainer__paragraphContainer{
+    margin-top: 21px;
+  }
+  .specialistContainer__paragraphContainer>p{
+    font-size: 18px;
+    font-weight: normal;
+
+  }
+}
+.containerForLogos{
+  margin-top: 39px;
+}
+#specialdiv{
+  background-color: transparent;
+  margin-right: 12px;
+}
+.containerForLogos__row>div{
+  display: inline-block;
+  height: 63px;
+  background-color: white;
+  vertical-align: middle;
+  margin: 0px 5px;
+}
+.containerForLogos__transparent{
+  height: 63px;
+  width: 155px;
+  background-color: transparent!important;
+}
+.containerForLogos__transparentSmall{
+  height: 63px;
+  width: 72px;
+  background-color: transparent!important;
+}
+.containerForLogos__butt{
+  margin-top: 55px;
+  width: 240px;
+  height: 48px;
+  background-color: #FF5A5F;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.containerHelp{
+  margin-top: 33px;
+  height: 631px;
+  background-color: #E5E5E5;
+  p{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin:0;
+  }
+  .containerHelp__row{
+    margin-left: 187px;
+  }
+  .containerHelp__block{
+    display: inline-block;
+  }
+  .containerHelp__reliabilityparagraph{
+    font-size: 24px!important;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 25px;
+  }
+  .containerHelp__exchange{
+    font-size: 14px!important;
+    font-weight: normal;
+    margin-top: 17px;
+    text-align: left;
+  }
+  .containerHelp__reliability{
+    height: 392px;
+    margin-top: 55px;
+  }
+  .containerHelp__block{
+    width: 213px;
+    height: 172px;
+  }
+  .specialdiv2{
+    margin-left: 33px;
+  }
+  .specialdiv3{
+    margin-top: 54px;
+  }
+}
+footer{
+  height: 234px;
+  background-color: #404040;
 }

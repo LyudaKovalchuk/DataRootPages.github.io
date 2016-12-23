@@ -1,0 +1,12 @@
+<svg width="64" height="63" viewBox="0 0 64 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Ellipse 3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1184 -1856)" figma:type="canvas">
+<g id="Ellipse 3" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path0_fill" transform="translate(-1183.22 1856)" fill="#F4C900" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 63 31.5C 63 48.897 48.897 63 31.5 63C 14.103 63 0 48.897 0 31.5C 0 14.103 14.103 0 31.5 0C 48.897 0 63 14.103 63 31.5Z"/>
+</defs>
+</svg>
