@@ -20,6 +20,8 @@ body{
 .mainContainer__list{
   display: inline-flex;
   margin: 0;
+  margin-top: 23px;
+  vertical-align: top;
   li {
 
     list-style-type: none;
@@ -32,6 +34,18 @@ body{
       margin: 0 20px;
     }
   }
+  .specialimg1{
+    margin-right: 24px;
+  }
+  .specialimg2{
+    margin-right: 26px;
+  }
+  .speciala1{
+    margin-right: 13px!important;
+  }
+  .speciala2{
+    margin-right: 34px;
+  }
 }
 .mainContainer__likes{
   display: inline-flex;
@@ -40,7 +54,9 @@ body{
     margin: 26px 0;
   }
   span {
-    margin: 24px 22px 0 10px;
+    margin-top: 24px;
+    margin-left: 9px;
+    margin-right: 22px;
   }
 }
 .mainContainer__mainText{
@@ -53,16 +69,26 @@ body{
   p{
     margin: 0;
   }
+  .specialp1{
+    margin-left: -33px;
+  }
+  .specialp2{
+    margin-left: -49px;
+  }
 }
 .mainContainer__inputs{
   text-align: center;
-  margin-top: 34px;
+  margin-top: 36px;
+  ::-webkit-input-placeholder {
+    padding-left: 15px;
+  }
 }
 .mainContainer__typeFieldFirst{
   margin: 0;
   padding: 0;
   width: 348px;
   height: 48px;
+  margin-left: -26px;
 }
 .mainContainer__typeFieldSecond{
   margin-left: -5px;
@@ -77,25 +103,27 @@ body{
   width: 107px;
   background-color: #00BEAE;
   color: white;
-  border-color: #00BEAE; ;
+  border: none;
 }
 .mainContainer__playButton{
   display: block;
-  margin: 43px  auto;
+  margin: 41px 473px;
   margin-bottom: 21px;
 }
 .mainContainer__smallParagraph{
   color: white;
   font-size: 14px;
   font-weight: bold;
+  margin-left: -34px;
 }
 .mainContainer__listPoint{
   padding: 33px;
   list-style: none;
   display: inline-flex;
   color: white;
+  margin-left: -31px;
   img{
-    margin: 0 4px;
+    margin: 0px 9px;
   }
 
 }

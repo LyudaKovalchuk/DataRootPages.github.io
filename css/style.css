@@ -19,7 +19,9 @@ body {
 
 .mainContainer__list {
   display: inline-flex;
-  margin: 0; }
+  margin: 0;
+  margin-top: 23px;
+  vertical-align: top; }
   .mainContainer__list li {
     list-style-type: none; }
     .mainContainer__list li a {
@@ -29,6 +31,14 @@ body {
       font-size: 12px;
       font-weight: bold;
       margin: 0 20px; }
+  .mainContainer__list .specialimg1 {
+    margin-right: 24px; }
+  .mainContainer__list .specialimg2 {
+    margin-right: 26px; }
+  .mainContainer__list .speciala1 {
+    margin-right: 13px !important; }
+  .mainContainer__list .speciala2 {
+    margin-right: 34px; }
 
 .mainContainer__likes {
   display: inline-flex;
@@ -36,7 +46,9 @@ body {
   .mainContainer__likes .mainContainer__heart-img {
     margin: 26px 0; }
   .mainContainer__likes span {
-    margin: 24px 22px 0 10px; }
+    margin-top: 24px;
+    margin-left: 9px;
+    margin-right: 22px; }
 
 .mainContainer__mainText {
   margin-top: 77px;
@@ -47,16 +59,23 @@ body {
   font-family: Roboto; }
   .mainContainer__mainText p {
     margin: 0; }
+  .mainContainer__mainText .specialp1 {
+    margin-left: -33px; }
+  .mainContainer__mainText .specialp2 {
+    margin-left: -49px; }
 
 .mainContainer__inputs {
   text-align: center;
-  margin-top: 34px; }
+  margin-top: 36px; }
+  .mainContainer__inputs ::-webkit-input-placeholder {
+    padding-left: 15px; }
 
 .mainContainer__typeFieldFirst {
   margin: 0;
   padding: 0;
   width: 348px;
-  height: 48px; }
+  height: 48px;
+  margin-left: -26px; }
 
 .mainContainer__typeFieldSecond {
   margin-left: -5px;
@@ -71,25 +90,27 @@ body {
   width: 107px;
   background-color: #00BEAE;
   color: white;
-  border-color: #00BEAE; }
+  border: none; }
 
 .mainContainer__playButton {
   display: block;
-  margin: 43px  auto;
+  margin: 41px 473px;
   margin-bottom: 21px; }
 
 .mainContainer__smallParagraph {
   color: white;
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: -34px; }
 
 .mainContainer__listPoint {
   padding: 33px;
   list-style: none;
   display: inline-flex;
-  color: white; }
+  color: white;
+  margin-left: -31px; }
   .mainContainer__listPoint img {
-    margin: 0 4px; }
+    margin: 0px 9px; }
 
 .mainBlocks {
   height: 610px;
