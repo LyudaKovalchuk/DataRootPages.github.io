@@ -1,15 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
-  width: 1024px; }
+  font-family: Roboto; }
 
 .mainContainer {
   background-image: url(../images/great-fun-family-time-happy-couple-happy-kids-autumn-production-lifestyle-photography-feeling-good-beurer.jpg);
   height: 600px;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 1024px; }
+  background-size: cover; }
 
 .mainContainer__img-logo {
   margin: 9px 3px; }
