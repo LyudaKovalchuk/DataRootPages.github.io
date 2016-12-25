@@ -121,7 +121,7 @@ body {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 33px;
-    margin-right: -13px; }
+    margin-left: 14px; }
   .mainBlocks .secondrow {
     margin-top: 21px; }
 
@@ -197,9 +197,9 @@ body {
   .specialistContainer .specialistContainer__paragraphContainer {
     margin-top: 21px; }
     .specialistContainer .specialistContainer__paragraphContainer .specialp3 {
-      margin-right: -6px; }
+      margin-left: 6px; }
     .specialistContainer .specialistContainer__paragraphContainer .specialp4 {
-      margin-right: -4px; }
+      margin-left: 4px; }
   .specialistContainer .specialistContainer__paragraphContainer > p {
     font-size: 18px;
     font-weight: normal; }
