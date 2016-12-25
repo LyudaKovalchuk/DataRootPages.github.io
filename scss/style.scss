@@ -79,8 +79,8 @@ body{
 .mainContainer__inputs{
   text-align: center;
   margin-top: 36px;
-  ::-webkit-input-placeholder {
-    padding-left: 15px;
+  input {
+    text-indent: 12px;
   }
 }
 .mainContainer__typeFieldFirst{
@@ -107,8 +107,9 @@ body{
 }
 .mainContainer__playButton{
   display: block;
-  margin: 41px 473px;
+  margin: 41px auto;
   margin-bottom: 21px;
+  padding-right: 29px;
 }
 .mainContainer__smallParagraph{
   color: white;
@@ -118,14 +119,17 @@ body{
 }
 .mainContainer__listPoint{
   padding: 33px;
-  list-style: none;
   display: inline-flex;
   color: white;
-  margin-left: -31px;
-  img{
-    margin: 0px 9px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 6px;
+  li{
+    margin: 0 13px;
   }
-
+  li:hover{
+    color: #00BEAE;
+  }
 }
 .mainBlocks{
   height: 610px;
@@ -134,13 +138,14 @@ body{
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 33px;
+    margin-right: -13px;
   }
   .secondrow{
-    margin-top: 16px;
+    margin-top: 21px;
   }
 }
 .mainBlocks__row{
-text-align: center;
+  margin-right: 13px;
   div{
     background-image: url(../images/israel.jpg);
     background-size: cover;
@@ -154,6 +159,10 @@ text-align: center;
     line-height: 9.5;
 
   }
+  .specialdiv4{
+    margin-left: 7px;
+  }
+
 }
 .findTreatmentContainer{
   background-color: #F4C900;
@@ -183,6 +192,9 @@ text-align: center;
         margin-top: 16px;
         padding-left: 8px;
 
+      }
+      span.specialspan1{
+        margin-top: 19px;
       }
     }
     div>div {
@@ -219,6 +231,12 @@ text-align: center;
   }
   .specialistContainer__paragraphContainer{
     margin-top: 21px;
+    .specialp3{
+      margin-right: -6px;
+    }
+    .specialp4{
+      margin-right: -4px;
+    }
   }
   .specialistContainer__paragraphContainer>p{
     font-size: 18px;
@@ -227,7 +245,7 @@ text-align: center;
   }
 }
 .containerForLogos{
-  margin-top: 39px;
+  margin-top: 40px;
 }
 #specialdiv{
   background-color: transparent;
@@ -244,14 +262,19 @@ text-align: center;
   height: 63px;
   width: 155px;
   background-color: transparent!important;
+  margin-left: 3px;
 }
 .containerForLogos__transparentSmall{
   height: 63px;
   width: 72px;
   background-color: transparent!important;
 }
+.secondrowLogos{
+  margin-top: 10px;
+
+}
 .containerForLogos__butt{
-  margin-top: 55px;
+  margin-top: 53px;
   width: 240px;
   height: 48px;
   background-color: #FF5A5F;
@@ -259,11 +282,13 @@ text-align: center;
   font-size: 14px;
   font-weight: bold;
   color: white;
+  margin-right: -12px;
 }
 .containerHelp{
   margin-top: 33px;
-  height: 631px;
-  background-color: #E5E5E5;
+  height: 628px;
+  text-align: center;
+
   p{
     color: black;
     font-size: 36px;
@@ -272,7 +297,7 @@ text-align: center;
     margin:0;
   }
   .containerHelp__row{
-    margin-left: 187px;
+    margin-left: 62px;
   }
   .containerHelp__block{
     display: inline-block;
@@ -296,6 +321,9 @@ text-align: center;
   .containerHelp__block{
     width: 213px;
     height: 172px;
+    img{
+      margin-left: -146px;
+    }
   }
   .specialdiv2{
     margin-left: 33px;

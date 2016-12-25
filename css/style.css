@@ -67,8 +67,8 @@ body {
 .mainContainer__inputs {
   text-align: center;
   margin-top: 36px; }
-  .mainContainer__inputs ::-webkit-input-placeholder {
-    padding-left: 15px; }
+  .mainContainer__inputs input {
+    text-indent: 12px; }
 
 .mainContainer__typeFieldFirst {
   margin: 0;
@@ -94,8 +94,9 @@ body {
 
 .mainContainer__playButton {
   display: block;
-  margin: 41px 473px;
-  margin-bottom: 21px; }
+  margin: 41px auto;
+  margin-bottom: 21px;
+  padding-right: 29px; }
 
 .mainContainer__smallParagraph {
   color: white;
@@ -105,12 +106,15 @@ body {
 
 .mainContainer__listPoint {
   padding: 33px;
-  list-style: none;
   display: inline-flex;
   color: white;
-  margin-left: -31px; }
-  .mainContainer__listPoint img {
-    margin: 0px 9px; }
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 6px; }
+  .mainContainer__listPoint li {
+    margin: 0 13px; }
+  .mainContainer__listPoint li:hover {
+    color: #00BEAE; }
 
 .mainBlocks {
   height: 610px;
@@ -118,12 +122,13 @@ body {
   .mainBlocks p {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 33px; }
+    margin-bottom: 33px;
+    margin-right: -13px; }
   .mainBlocks .secondrow {
-    margin-top: 16px; }
+    margin-top: 21px; }
 
 .mainBlocks__row {
-  text-align: center; }
+  margin-right: 13px; }
   .mainBlocks__row div {
     background-image: url(../images/israel.jpg);
     background-size: cover;
@@ -135,6 +140,8 @@ body {
     font-size: 24px;
     text-align: center;
     line-height: 9.5; }
+  .mainBlocks__row .specialdiv4 {
+    margin-left: 7px; }
 
 .findTreatmentContainer {
   background-color: #F4C900;
@@ -161,6 +168,8 @@ body {
         color: black;
         margin-top: 16px;
         padding-left: 8px; }
+      .findTreatmentContainer .findTreatmentContainer__images div span.specialspan1 {
+        margin-top: 19px; }
     .findTreatmentContainer .findTreatmentContainer__images div > div {
       margin: 0 8px;
       display: inline-block;
@@ -189,12 +198,16 @@ body {
     margin-top: 35px; }
   .specialistContainer .specialistContainer__paragraphContainer {
     margin-top: 21px; }
+    .specialistContainer .specialistContainer__paragraphContainer .specialp3 {
+      margin-right: -6px; }
+    .specialistContainer .specialistContainer__paragraphContainer .specialp4 {
+      margin-right: -4px; }
   .specialistContainer .specialistContainer__paragraphContainer > p {
     font-size: 18px;
     font-weight: normal; }
 
 .containerForLogos {
-  margin-top: 39px; }
+  margin-top: 40px; }
 
 #specialdiv {
   background-color: transparent;
@@ -210,27 +223,32 @@ body {
 .containerForLogos__transparent {
   height: 63px;
   width: 155px;
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  margin-left: 3px; }
 
 .containerForLogos__transparentSmall {
   height: 63px;
   width: 72px;
   background-color: transparent !important; }
 
+.secondrowLogos {
+  margin-top: 10px; }
+
 .containerForLogos__butt {
-  margin-top: 55px;
+  margin-top: 53px;
   width: 240px;
   height: 48px;
   background-color: #FF5A5F;
   border: none;
   font-size: 14px;
   font-weight: bold;
-  color: white; }
+  color: white;
+  margin-right: -12px; }
 
 .containerHelp {
   margin-top: 33px;
-  height: 631px;
-  background-color: #E5E5E5; }
+  height: 628px;
+  text-align: center; }
   .containerHelp p {
     color: black;
     font-size: 36px;
@@ -238,7 +256,7 @@ body {
     font-weight: bold;
     margin: 0; }
   .containerHelp .containerHelp__row {
-    margin-left: 187px; }
+    margin-left: 62px; }
   .containerHelp .containerHelp__block {
     display: inline-block; }
   .containerHelp .containerHelp__reliabilityparagraph {
@@ -257,6 +275,8 @@ body {
   .containerHelp .containerHelp__block {
     width: 213px;
     height: 172px; }
+    .containerHelp .containerHelp__block img {
+      margin-left: -146px; }
   .containerHelp .specialdiv2 {
     margin-left: 33px; }
   .containerHelp .specialdiv3 {
