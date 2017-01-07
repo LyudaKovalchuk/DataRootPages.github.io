@@ -11,8 +11,12 @@ body{
   background-size: cover;
 
 }
+.slick-slide img {
+  display: inline-block;
+}
 .mainContainer__img-logo{
-  margin: 9px 3px;
+  padding: 9px 3px;
+  display: inline-block!important;
 }
 .mainContainer__rightnav{
   float: right;
@@ -44,7 +48,7 @@ body{
     margin-right: 13px!important;
   }
   .speciala2{
-    margin-right: 34px;
+    margin-right: 38px;
   }
 }
 .mainContainer__likes{
@@ -55,8 +59,8 @@ body{
   }
   span {
     margin-top: 24px;
-    margin-left: 9px;
-    margin-right: 22px;
+    margin-left: 8px;
+    margin-right: 20px;
   }
 }
 .mainContainer__mainText{
@@ -78,17 +82,15 @@ body{
 }
 .mainContainer__inputs{
   text-align: center;
-  margin-top: 36px;
-  input {
+  margin-top: 38px;
+  input:not([type="button"]){
     text-indent: 12px;
   }
 }
 .mainContainer__typeFieldFirst{
-  margin: 0;
-  padding: 0;
-  width: 348px;
   height: 48px;
-  margin-left: -26px;
+  width: 348px;
+  margin-left: -28px;
 }
 .mainContainer__typeFieldSecond{
   margin-left: -5px;
@@ -104,9 +106,10 @@ body{
   background-color: #00BEAE;
   color: white;
   border: none;
+  font-weight: bold;
 }
 .mainContainer__playButton{
-  display: block;
+  display: block!important;
   margin: 41px auto;
   margin-bottom: 21px;
   padding-right: 29px;
@@ -138,7 +141,7 @@ body{
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 33px;
-    margin-left: 14px;
+    margin-left: 13px;
   }
   .secondrow{
     margin-top: 21px;
@@ -157,7 +160,9 @@ body{
     font-size: 24px;
     text-align: center;
     line-height: 9.5;
-
+  }
+  div:hover{
+    background: rgba(0, 0, 0, 0.4);opacity: 1.00;
   }
   .specialdiv4{
     margin-left: 7px;
@@ -256,7 +261,7 @@ body{
   height: 63px;
   background-color: white;
   vertical-align: middle;
-  margin: 0px 5px;
+  margin: 0px 4px;
 }
 .containerForLogos__transparent{
   height: 63px;
@@ -335,4 +340,16 @@ body{
 footer{
   height: 234px;
   background-color: #404040;
+}
+.slick-dots li button:before{
+  font-size: 10px;
+  color: white;
+  opacity: 1;
+}
+ul.slick-dots{
+  bottom: 25px;
+  left: -12px;
+}
+.slick-dots li.slick-active button:before{
+  color: #00BEAE;
 }
